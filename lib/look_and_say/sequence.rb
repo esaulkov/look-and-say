@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module LookAndSay
   class Sequence
     def initialize(init_digit)
@@ -8,9 +10,7 @@ module LookAndSay
 
     def print(count)
       output_array = [@init_digit]
-      while output_array.size < count do
-        output_array << Member.new(output_array.last).display
-      end
+      output_array << Member.new(output_array.last).display while output_array.size < count
 
       output_array
     end

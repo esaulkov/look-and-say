@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module LookAndSay
   class Member
     def initialize(source)

@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'spec/**/*'
+    - '**/Rakefile'
+  DisplayStyleGuide: true
+Documentation:
+  Enabled: false
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+Style/AsciiComments:
+  Enabled: false
